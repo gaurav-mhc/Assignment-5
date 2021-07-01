@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&display=swap');
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body{
+    background-image: linear-gradient(to right,rgb(87, 0, 87), rgb(117, 0, 117),
+    rgb(172, 0, 172),rgb(117, 0, 117),rgb(87, 0, 87));
+}
+.character-card{
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+}
+.character-name{
+    color: white;
+    font-family: 'Averia Sans Libre', cursive;
+    text-shadow: 4px 4px 4px #000000;
+}
+.character-gender{
+    color: white;
+    text-shadow: 4px 4px 4px #000000;
+    font-family: 'Averia Sans Libre', cursive;
+}
+.header{
+    text-align: center;
+    color: white;
+    font-family: 'Averia Sans Libre', cursive;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 8px red;
+}
+img{
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px  black;
+}
